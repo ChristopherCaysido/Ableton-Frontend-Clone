@@ -1,0 +1,33 @@
+#main-container{
+    display:grid;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: auto;
+    padding: 0;
+    height: 80px;
+    position: fixed;
+}
+.navbar * {
+    display: block
+}
+
+.nav-item{
+    display: inline;
+    margin:20px;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+#right-item{
+    float:right;
+    margin: auto;
+}
+
+.nav-item a{
+    text-decoration: none;
+}
+
