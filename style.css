@@ -1,33 +1,21 @@
-#main-container{
-    display:grid;
+.main-container{
+    display:block;
 }
 
-#navbar{
-    display: flex;
-    align-items: center;
+.navbar{
+    display:flex;
+    justify-content: space-between;
+}
+
+ul{
+    display:flex;
+}
+
+li{
+    margin:10px;
     list-style-type: none;
-    margin-left: auto;
-    padding: 0;
-    height: 80px;
-    position: fixed;
-}
-.navbar * {
-    display: block
 }
 
-.nav-item{
-    display: inline;
-    margin:20px;
-    justify-content: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-}
-
-#right-item{
-    float:right;
-    margin: auto;
-}
-
-.nav-item a{
+.nav-link{
     text-decoration: none;
 }
-
