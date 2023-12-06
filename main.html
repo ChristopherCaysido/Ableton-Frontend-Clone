@@ -8,10 +8,26 @@
 </head>
 <body>
     <div class="main-container">
-        <div class="navbar">
+        <!-- Main Container - CSS Grid is Used-->
+        <!-- To-Dos: 
+             1. Apply a CSS Grid in the Main Container - DONE
+             2. Set the grid template for columns and rows - 
+             3. Apply .grid-item class to the children of Main Container
+        
+        -->
+
+        <!-- 
+            Main Parts of the Reference Image
+            - Navbar
+            - Content
+            - Footer
+        -->
+
+        <div class="navbar grid-item">
+            <!-- Navbar-->
             <div class="left-items">
                 <ul >
-                    <li class="nav-item nav-home"><a href="">Home</a></li>
+                    <li class="nav-item"><a class="nav-link"href="">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="">Live</a></li>
                     <li class="nav-item"><a class="nav-link" href="">Push</a></li>
                     <li class="nav-item"><a class="nav-link" href="">Link</a></li>
@@ -23,14 +39,32 @@
             </div>
             <div class="right-items">
                 <ul>
-                    <li class="nav-item "><a href="">Try Live for Free</a></li>
-                    <li class="nav-item "><a href="">Account</a></li>
-                    <li class="nav-item "><a href="">Logout</a></li>
+                    <li class="nav-item "><a class="nav-link" href="">Try Live for Free</a></li>
+                    <li class="nav-item "><a class="nav-link" href="">Account</a></li>
+                    <li class="nav-item "><a class="nav-link" href="">Logout</a></li>
                 </ul>
             </div>
-            
         </div>
-        <div></div>
+        <div class="grid-item content-one-tabs">
+            <ul>
+                <li><a class="tab-link">About</a></li>
+                <li><a class="tab-link">Jobs</a></li>
+            </ul>
+        </div>
+        <div class="grid-item content-one">
+            <!-- The two tabs at the upper right of the div -->
+            <!-- grid-column-start: 
+                 grid-column-end:
+                 grid-row-start:
+                 grid-row-end:
+            
+            -->
+            
+            <div class="grid-item content-one-about-image">
+
+            </div>
+
+        </div>
         <div></div>
         <div></div>
         <div></div>
