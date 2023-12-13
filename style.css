@@ -7,7 +7,7 @@ body{
     margin:0;
     padding:0;
     display:grid;
-    grid-template-rows: 70px 50px repeat(4, 1000px);
+    grid-template-rows: 70px 50px 600px 400px repeat(2, 600px);
     grid-template-columns: repeat(8,1fr);
     border: 2px solid black;
 }
@@ -32,6 +32,26 @@ body{
     grid-row-end:3;
     display:flex;
 }
+
+.main-site-header{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-column-start:1;
+    grid-column-end:9;
+    grid-row-start:3;
+    grid-row-end:4;
+    border: 2px solid black;
+}
+
+.main-site-image{
+    grid-column-start:2;
+    grid-column-end:6;
+    object-fit: contain;
+    height:100%;
+    width:100%;
+}
+
+
 
 
 
