@@ -225,6 +225,7 @@ Footer Styles
 */
 
 .footer{
+    box-sizing:border-box;
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start:8;
@@ -246,6 +247,23 @@ Footer Styles
     flex-direction: row;
     justify-content: space-between;
     width:100%;
+}
+.promotions-footer{
+    display:flex;
+    flex-direction: column;
+}
+.education-footer{
+    display:flex;
+    flex-direction: column;
+}
+.newsletter{
+    display:flex;
+    flex-direction: column;
+}
+.footer-socials-button{
+    border:none;
+    width:20px;
+    height:20px;
 }
 
 
